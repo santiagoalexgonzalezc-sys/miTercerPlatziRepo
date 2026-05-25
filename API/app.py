@@ -23,3 +23,7 @@ def get_cursos():
     return rows
 
 
+@app.get("/superheroesMarvel")
+def get_superheroes_marvel():
+    rows = ["Spider-Man", "Iron Man", "Thor", "Hulk", "Black Widow", "Doctor Strange", "Black Panther", "Captain America"]
+    return rows
